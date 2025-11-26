@@ -17,6 +17,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@Sling-Inc/firestore@workspace:packages/firestore":
+  version: 0.0.0-use.local
+  resolution: "@Sling-Inc/firestore@workspace:packages/firestore"
+  dependencies:
+    react-native-url-polyfill: "npm:2.0.0"
+  peerDependencies:
+    "@react-native-firebase/app": 22.4.0
+  languageName: unknown
+  linkType: soft
+
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
   version: 1.2.6
   resolution: "@aashutoshrathi/word-wrap@npm:1.2.6"
@@ -5447,15 +5457,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-native-firebase/firestore@npm:22.4.0, @react-native-firebase/firestore@workspace:packages/firestore":
-  version: 0.0.0-use.local
-  resolution: "@react-native-firebase/firestore@workspace:packages/firestore"
+"@react-native-firebase/firestore@npm:22.4.0":
+  version: 22.4.0
+  resolution: "@react-native-firebase/firestore@npm:22.4.0"
   dependencies:
     react-native-url-polyfill: "npm:2.0.0"
   peerDependencies:
     "@react-native-firebase/app": 22.4.0
-  languageName: unknown
-  linkType: soft
+  checksum: 10/105c708963639bda4fd4fd4effe1fc7f3ff433a652daa85d7ce840a92cb5905667f7cd8735d16d8269c7be7e0825b78b99b6c9be4f250130970996b9364e42c4
+  languageName: node
+  linkType: hard
 
 "@react-native-firebase/functions@npm:22.4.0, @react-native-firebase/functions@workspace:packages/functions":
   version: 0.0.0-use.local
